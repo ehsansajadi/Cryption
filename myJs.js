@@ -785,13 +785,13 @@ function nextIncome(){
 
     calculate();
 
-    btns[2].classList.remove('active');
-    btns[2].ariaSelected = false;
-    tabPane[2].classList.remove('active');
-    tabPane[2].classList.remove('show');
+    btns[3].classList.remove('active');
+    btns[3].ariaSelected = false;
+    tabPane[3].classList.remove('active');
+    tabPane[3].classList.remove('show');
 
-    btns[3].classList.add('active');
-    btns[3].ariaSelected = true;
-    tabPane[3].classList.add('active');
-    tabPane[3].classList.add('show');
+    btns[4].classList.add('active');
+    btns[4].ariaSelected = true;
+    tabPane[4].classList.add('active');
+    tabPane[4].classList.add('show');
 }
